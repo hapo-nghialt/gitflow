@@ -1,0 +1,464 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  background-image: url(./img/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  max-width: 100%; }
+  .header .top-header {
+    padding-top: 40px;
+    margin-right: 180px; }
+  .header .about-header {
+    text-transform: uppercase;
+    color: #39474E;
+    padding-right: 20px;
+    padding-top: 5px;
+    font-size: 12x;
+    font-family: "Roboto-Regular"; }
+  .header .sign-header {
+    padding-top: 5px;
+    border: 2px solid #8BC34A;
+    border-radius: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #8BC34A;
+    width: 82px;
+    height: 36px;
+    font-size: 12x;
+    font-family: "Roboto-Regular"; }
+  .header .logo-header {
+    padding-top: 110px; }
+  .header .logo {
+    width: 250px;
+    height: 71px; }
+  .header .icon-header {
+    color: #283238;
+    font-size: 48px;
+    padding: 15px 270px 0 270px; }
+  .header .icon-name {
+    color: #283238;
+    padding: 0 270px 0 270px;
+    font-family: 'Roboto-Light';
+    font-size: 36px; }
+  .header .name {
+    text-align: center;
+    width: 36%; }
+  .header .slogan {
+    color: #283238;
+    padding-top: 30px;
+    font-size: 18px;
+    font-family: 'Roboto-Italic'; }
+  .header .button-header {
+    padding-top: 30px; }
+  .header .button {
+    border-radius: 100px;
+    border: 1px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #429321;
+    background-image: linear-gradient(to right, #429321, #B4EC51);
+    width: 195px;
+    height: 50px;
+    font-size: 14px; }
+
+.main {
+  max-width: 100%; }
+  .main .section-main {
+    padding: 100px 18% 100px 18%;
+    box-shadow: 0px 10px 10px -5px #CCCCCC; }
+  .main .bookmark {
+    font-size: 24px; }
+  .main .title {
+    font-size: 28px;
+    color: #444444;
+    padding-left: 10px;
+    margin-top: -5px; }
+  .main .slogan {
+    color: #283238;
+    font-size: 12px;
+    font-family: 'Roboto-Italic'; }
+  .main .part-img .img-main {
+    width: 100%;
+    height: 260px; }
+  .main .part-text {
+    text-align: justify;
+    line-height: 18px;
+    font-size: 11px;
+    font-family: 'Roboto-Regular'; }
+  .main .button-main {
+    padding-top: 5px; }
+  .main .button {
+    border-radius: 100px;
+    border: 1px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #429321;
+    background-image: linear-gradient(to right, #429321, #B4EC51);
+    width: 117px;
+    height: 30px;
+    font-size: 14px; }
+  .main .part-main {
+    padding: 100px 18% 100px 18%; }
+  .main .symbol-main {
+    background-color: #429321;
+    background-image: linear-gradient(to right, #429321, #B4EC51);
+    height: 322px; }
+  .main .part-symbol {
+    padding: 70px 18% 0 18%; }
+  .main .ti-icon {
+    border: 2.5px solid white;
+    border-radius: 100%;
+    width: 107px;
+    height: 107px;
+    color: white;
+    font-size: 36px;
+    padding-top: 16px; }
+  .main .number {
+    background-color: #7CB342;
+    border: 2.5px solid white;
+    border-radius: 100%;
+    width: 43px;
+    height: 43px;
+    margin-top: -30px;
+    font-size: 24px;
+    color: white;
+    margin-left: 30px; }
+  .main .name-symbol {
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    padding-top: 12px;
+    line-height: 5px; }
+  .main .ti-box {
+    font-size: 14px;
+    color: #8BC34A; }
+  .main .text-member {
+    padding-left: 15px;
+    text-align: justify;
+    color: #283238;
+    font-size: 11px;
+    font-family: 'Roboto-Regular'; }
+  .main .our-customer {
+    background-image: url(./img/rectangle.png);
+    height: 544px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .main .part-ourcustomer {
+    padding: 50px 18% 0 18%; }
+  .main .top-our {
+    color: #ffffff;
+    font-size: 48px;
+    font-family: 'Roboto-Light'; }
+  .main .infor-ourcustomer {
+    padding-top: 38px; }
+  .main .user-picture {
+    width: 79px;
+    height: 80px; }
+  .main .picture-name {
+    color: #ffffff;
+    padding-top: 10px;
+    line-height: 2px;
+    font-size: 13px;
+    font-family: 'Roboto-Regular'; }
+  .main .designer {
+    color: #c0c0c0; }
+  .main .ourcustomer-slide {
+    padding: 0 45% 0 45%;
+    padding-top: 20px; }
+  .main .ing-slide {
+    border: 0.5px solid #C0C0C0;
+    border-radius: 100%;
+    width: 8px;
+    height: 8px;
+    background-color: #C0C0C0; }
+  .main .nxt-slide {
+    border: 0.5px solid #C0C0C0;
+    border-radius: 100%;
+    width: 8px;
+    height: 8px; }
+  .main .icon-left {
+    font-size: 55px;
+    color: #5b5b5c; }
+  .main .icon-right {
+    font-size: 55px;
+    color: #5b5b5c;
+    padding-top: 105px; }
+  .main .text-ourcustomer {
+    color: #d0d8dc;
+    font-size: 13px;
+    text-align: justify;
+    width: 580px;
+    padding-top: 70px; }
+
+.footer {
+  height: 179px;
+  background-color: #39474E;
+  width: 100%;
+  font-family: 'Roboto-Medium'; }
+  .footer .section-footer {
+    padding: 45px 18% 0 18%; }
+  .footer .img-hapo {
+    width: 90px;
+    height: 20px; }
+  .footer .top-footer {
+    color: #8BC34A;
+    text-transform: uppercase;
+    font-size: 13px; }
+  .footer .coppy-right {
+    color: white;
+    font-size: 10px;
+    padding-top: 30px; }
+  .footer .contact-about {
+    font-size: 10px;
+    width: 80px;
+    height: 40px;
+    color: white; }
+  .footer .icon-footer {
+    font-size: 13px;
+    padding-top: 30px;
+    color: #8BC34A;
+    width: 145px;
+    margin-left: -30px; }
+
+@media screen and (max-width: 768px) {
+  .header {
+    background-image: url(./img/banner-TB.png);
+    height: 425px;
+    max-width: 100%; }
+    .header .top-header {
+      padding-top: 20px;
+      margin-right: 10px; }
+    .header .logo-header {
+      padding-top: 10px; }
+    .header .logo {
+      width: 144px;
+      height: 43px; }
+    .header .icon-header {
+      font-size: 24px;
+      padding: 35px 130px 0 130px; }
+    .header .icon-name {
+      padding: 0 90px 0 90px;
+      font-family: 'Roboto-Light';
+      font-size: 24px; }
+    .header .name {
+      text-align: center;
+      width: 29%; }
+    .header .slogan {
+      font-size: 14px; }
+    .header .button-header {
+      padding-top: 5px; }
+    .header .button {
+      width: 144px;
+      height: 45px;
+      font-size: 14px; }
+
+  .main {
+    max-width: 100%; }
+    .main .section-main {
+      padding: 50px 10px 50px 10px; }
+    .main .slogan {
+      font-size: 14px;
+      padding-top: 15px; }
+    .main .part-img {
+      padding-top: 25px; }
+      .main .part-img .img-main {
+        width: 100%;
+        height: 226px; }
+    .main .part-text {
+      padding-top: 25px;
+      line-height: 22px;
+      font-size: 13px; }
+    .main .button-main {
+      padding-top: 30px; }
+    .main .button {
+      width: 144px;
+      height: 45px;
+      font-size: 14px; }
+    .main .part-main {
+      padding: 50px 10px 50px 10px; }
+    .main .symbol-main {
+      height: 322px; }
+    .main .part-symbol {
+      padding: 50px 10px 50px 10px; }
+    .main .check-txt {
+      padding-top: 40px; }
+    .main .text-member {
+      font-size: 13px; }
+    .main .our-customer {
+      height: 544px; }
+    .main .part-ourcustomer {
+      padding: 50px 10px 0 10px; }
+    .main .infor-ourcustomer {
+      padding-top: 5px; }
+    .main .user-picture {
+      width: 77px;
+      height: 80px; }
+    .main .icon-left {
+      font-size: 64px; }
+    .main .icon-right {
+      font-size: 64px; }
+    .main .text-ourcustomer {
+      font-size: 13px;
+      width: 570px;
+      line-height: 20px; }
+
+  .footer .section-footer {
+    padding: 45px 0px 0 0px; }
+  .footer .logo-footer {
+    width: 90px;
+    height: 20px; }
+  .footer .top-footer {
+    font-size: 11px;
+    width: 86px;
+    margin-top: 5px; }
+  .footer .coppy-right {
+    font-size: 10px;
+    padding-top: 30px; }
+  .footer .contact-about {
+    font-size: 10px;
+    width: 76px;
+    height: 40px; }
+  .footer .icon-footer {
+    font-size: 11px; } }
+@media screen and (max-width: 425px) {
+  .header {
+    background-image: url(./img/banner-MB.png);
+    height: 266px;
+    max-width: 100%; }
+    .header .top-header {
+      padding-top: 19px;
+      margin-right: -4px; }
+    .header .about-header {
+      font-size: 11px;
+      padding-right: 10px; }
+    .header .sign-header {
+      font-size: 11px;
+      width: 70px;
+      height: 30px; }
+    .header .logo-header {
+      padding-top: 5px; }
+    .header .logo {
+      width: 96px;
+      height: 29px; }
+    .header .icon-header {
+      font-size: 18px;
+      padding: 5px 20px 0 20px; }
+    .header .icon-name {
+      padding: 0 20px 0 20px;
+      font-size: 18px; }
+    .header .name {
+      text-align: center;
+      width: 34%; }
+    .header .slogan {
+      font-size: 10px;
+      padding-top: 15px; }
+    .header .button-header {
+      padding-top: 1px; }
+    .header .button {
+      width: 100px;
+      height: 30px;
+      font-size: 12px; }
+
+  .main {
+    max-width: 100%; }
+    .main .section-main {
+      padding: 30px 1px 30px 1px; }
+    .main .bookmark {
+      font-size: 20px; }
+    .main .title {
+      padding-left: 10px;
+      margin-top: -5px;
+      font-size: 24px; }
+    .main .slogan {
+      font-size: 11px;
+      padding-top: 5px; }
+    .main .part-img {
+      padding-top: 2px; }
+      .main .part-img .img-main {
+        width: 100%;
+        height: 250px; }
+    .main .part-text {
+      line-height: 21px;
+      padding-top: 8px; }
+    .main .button-main {
+      padding-top: 10px; }
+    .main .button {
+      width: 100px;
+      height: 30px;
+      font-size: 12px; }
+    .main .part-main {
+      padding: 30px 1px 30px 1px; }
+    .main .symbol-main {
+      height: 296px; }
+    .main .part-symbol {
+      padding: 30px 1px 30px 1px; }
+    .main .customer-slide {
+      padding: 0 40% 0 40%;
+      margin-top: 25px; }
+    .main .img-slide {
+      border: 0.5px solid #ffffff;
+      border-radius: 100%;
+      width: 10px;
+      height: 10px;
+      background-color: #ffffff; }
+    .main .next-slide {
+      border: 0.5px solid #ffffff;
+      border-radius: 100%;
+      width: 10px;
+      height: 10px; }
+    .main .check-txt {
+      padding-top: 10px; }
+    .main .our-customer {
+      height: 525px; }
+    .main .part-ourcustomer {
+      padding-top: 10px 1px 0 1px; }
+    .main .top-our {
+      font-size: 24px; }
+    .main .infor-ourcustomer {
+      padding-top: 5px; }
+    .main .user-picture {
+      width: 77px;
+      height: 80px; }
+    .main .ourcustomer-slide {
+      margin-top: 30px;
+      padding: 0 40% 0 40%; }
+    .main .icon-left {
+      font-size: 48px;
+      margin-bottom: -10px; }
+    .main .icon-right {
+      font-size: 48px;
+      padding-top: 1px;
+      text-align: right;
+      margin-top: -30px; }
+    .main .text-ourcustomer {
+      font-size: 14px;
+      padding-top: 1px;
+      width: 380px; }
+
+  .footer {
+    height: 209px; }
+    .footer .section-footer {
+      padding-top: 24px; }
+    .footer .img-hapo {
+      width: 96px;
+      height: 24px; }
+    .footer .top-footer {
+      font-size: 11px; }
+    .footer .contact-us {
+      font-size: 10px; }
+    .footer .icon-footer {
+      margin-left: 2px;
+      font-size: 13px;
+      width: 38%;
+      padding-top: 50px; }
+    .footer .coppy-right {
+      padding-top: 50px;
+      margin-left: 40px;
+      font-size: 10px; } }
+
+/*# sourceMappingURL=style.css.map */

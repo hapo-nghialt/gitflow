@@ -1,0 +1,312 @@
+@mixin measure ($w, $h) {
+  width: $w;
+  height: $h;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    background-image: url(./img/banner-TB.png);
+    height: 425px;
+    max-width: 100%;
+    .top-header {
+      padding-top: 20px;
+      margin-right: 10px;
+    }
+    .logo-header {
+      padding-top: 10px;
+    }
+    .logo {
+      @include measure (144px, 43px);
+    }
+    .icon-header {
+      font-size: 24px;
+      padding: 35px 130px 0 130px;
+    }
+    .icon-name {
+      padding: 0 90px 0 90px;
+      font: {
+        family: 'Roboto-Light';
+        size: 24px;
+      }
+    }
+    .name {
+      text-align: center;
+      width: 29%;
+    }
+    .slogan {
+      font-size: 14px;
+    }
+    .button-header {
+      padding-top: 5px;
+    }
+    .button {
+      @include measure (144px,45px);
+      font-size: 14px;
+    }
+  }
+  .main {
+    max-width: 100%;
+    .section-main {
+      padding: 50px 10px 50px 10px;
+    }
+    .slogan {
+      font-size: 14px;
+      padding-top: 15px;
+    }
+    .part-img {
+      padding-top: 25px;
+      .img-main {
+        width: 100%;
+        height: 226px;
+      }
+    }
+    .part-text {
+      padding-top: 25px;
+      line-height: 22px;
+      font-size: 13px;
+    }
+    .button-main {
+      padding-top: 30px;
+    }
+    .button {
+      @include measure (144px,45px);
+      font-size: 14px;
+    }
+    
+    .part-main {
+      padding: 50px 10px 50px 10px;
+    }
+    .symbol-main {
+      height: 322px;
+    }
+    .part-symbol {
+      padding: 50px 10px 50px 10px;
+    }
+    .check-txt {
+      padding-top: 40px;
+    }
+    .text-member {
+      font-size: 13px;
+    }
+    .our-customer {
+      height: 544px; 
+    }
+    .part-ourcustomer {
+      padding: 50px 10px 0 10px;
+    }
+    .infor-ourcustomer {
+      padding-top: 5px;
+    }
+    .user-picture {
+      @include measure (77px, 80px);
+    }
+    .icon-left {
+      font-size: 64px;
+    }
+    .icon-right {
+      font-size: 64px;
+    }
+    .text-ourcustomer {
+      font-size: 13px;
+      width: 570px;
+      line-height: 20px;
+    }
+  }
+
+  .footer {
+    .section-footer {
+      padding: 45px 0px 0 0px;
+    }
+    .logo-footer {
+      @include measure(90px, 20px);
+    }
+    .top-footer {
+      font-size: 11px;
+      width: 86px;
+      margin-top: 5px;
+    }
+    .coppy-right {
+      font-size: 10px;
+      padding-top: 30px;
+    }
+    .contact-about {
+      font-size: 10px;
+      @include measure (76px, 40px);
+    }
+    .icon-footer { 
+      font-size: 11px;
+    }
+  } 
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    background-image: url(./img/banner-MB.png);
+    height: 266px;
+    max-width: 100%;
+    .top-header {
+      padding-top: 19px;
+      margin-right: -4px;
+    }
+    .about-header {
+      font-size: 11px;
+      padding-right: 10px;
+    }
+    .sign-header {
+      font-size: 11px;
+      @include measure(70px, 30px);
+    }
+    .logo-header {
+      padding-top: 5px;
+    }
+    .logo {
+      @include measure (96px, 29px);
+    }
+    .icon-header {
+      font-size: 18px;
+      padding: 5px 20px 0 20px;
+    }
+    .icon-name {
+      padding: 0 20px 0 20px;
+      font-size: 18px;
+    }
+    .name {
+      text-align: center;
+      width: 34%;
+    }
+    .slogan {
+      font-size: 10px;
+      padding-top: 15px;
+    }
+    .button-header {
+      padding-top: 1px;
+    }
+    .button {
+      @include measure (100px,30px);;
+      font-size: 12px;
+    }
+  }
+  .main {
+    max-width: 100%;
+    .section-main {
+      padding: 30px 1px 30px 1px;
+    }
+    .bookmark {
+      font-size: 20px;
+    }
+    .title {
+      padding-left: 10px;
+      margin-top: -5px;
+      font-size: 24px;
+    }
+    .slogan {
+      font-size: 11px;
+      padding-top: 5px;
+    }
+    .part-img {
+      padding-top: 2px;
+      .img-main {
+        width: 100%;
+        height: 250px;
+      }
+    }
+    .part-text {
+      line-height: 21px;
+      padding-top: 8px;
+    }
+    .button-main {
+      padding-top: 10px;
+    }
+    .button {
+      @include measure (100px,30px);
+      font-size: 12px;
+    }
+    .part-main {
+      padding: 30px 1px 30px 1px;
+    }
+    .symbol-main {
+      height: 296px;
+    }
+    .part-symbol {
+      padding: 30px 1px 30px 1px;
+    }
+    .customer-slide {
+      padding: 0 40% 0 40%;
+      margin-top: 25px;
+    } 
+    .img-slide {
+      border: 0.5px solid #ffffff;
+      border-radius: 100%;
+      @include measure (10px, 10px);
+      background-color: #ffffff;
+    }
+    .next-slide {
+      border: 0.5px solid #ffffff;
+      border-radius: 100%;
+      @include measure (10px, 10px);
+    }
+    .check-txt {
+      padding-top: 10px;
+    }
+    .our-customer {
+      height: 525px; 
+    }
+    .part-ourcustomer {
+      padding-top: 10px 1px 0 1px;
+    }
+    .top-our {
+      font-size: 24px;
+    }
+    .infor-ourcustomer {
+      padding-top: 5px;
+    }
+    .user-picture {
+      @include measure (77px, 80px);
+    }
+    .ourcustomer-slide {
+      margin-top: 30px;
+      padding: 0 40% 0 40%;
+    }
+    .icon-left {
+      font-size: 48px;
+      margin-bottom: -10px;
+    }
+    .icon-right {
+      font-size: 48px;
+      padding-top: 1px;
+      text-align: right;
+      margin-top: -30px;
+    }
+    .text-ourcustomer {
+      font-size: 14px;
+      padding-top: 1px;
+      width: 380px;
+    }
+  }
+  .footer {
+    height: 209px;
+    .section-footer {
+      padding-top: 24px;
+    }
+    .img-hapo {
+      @include measure (96px, 24px);
+    }
+    .top-footer {
+      font-size: 11px;
+    }
+    .contact-us {
+      font-size: 10px;
+    }
+    .icon-footer { 
+      margin-left: 2px;
+      font-size: 13px;
+      width: 38%;
+      padding-top: 50px;
+    }
+    .coppy-right {
+      padding-top: 50px;
+      margin-left: 40px;
+      font-size: 10px;
+    }
+  }
+}
